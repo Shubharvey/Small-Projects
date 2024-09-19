@@ -1,0 +1,46 @@
+#calculator {
+  z-index: 1;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.companyname {
+  font-family: "roboto", sans-serif;
+  font-weight: 600;
+  color: aliceblue;
+  background-color: blueviolet;
+  border: none;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 2px 2px;
+  margin: 0%;
+}
+
+#display {
+  margin: 10px;
+  font-size: 25px;
+  border: 2px solid green;
+  width: 85%;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button {
+  font-weight: 600;
+  width: 40px;
+  height: 40px;
+  margin: 2px;
+}
+
+.pers {
+  margin: 10px;
+  font-weight: 600;
+}
